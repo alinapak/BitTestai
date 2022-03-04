@@ -1,0 +1,35 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+header {
+  text-align: center;
+  padding-bottom: 5%;
+}
+img {
+  width: 100%;
+}
+#main-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-items: baseline;
+}
+/* remember display:inline-block property */
+figure {
+  display: inline-block;
+  margin: 20px;
+}
+figcaption {
+  text-align: center;
+  color: rgb(250, 143, 50);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+div p {
+  text-align: justify;
+}
+.div-grid {
+  padding: 1rem;
+}
