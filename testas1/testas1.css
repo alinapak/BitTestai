@@ -1,23 +1,23 @@
 body {
-  padding:0;
-margin:0;
+  padding: 0;
+  margin: 0;
 
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 header {
   text-align: center;
   padding-bottom: 5%;
 }
 img {
-height: 15rem;
-    width: 15rem;
-    filter: invert(100%);
-/* svg img size was my mistake in display */
+  height: 15rem;
+  width: 15rem;
+  filter: invert(100%);
+  /* svg img size was my mistake in display */
   /* width: 100%; */
 }
 
 #main-section {
-  margin-top:10rem;
+  margin-top: 10rem;
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -26,102 +26,101 @@ height: 15rem;
   align-items: baseline;
 }
 h1 {
- text-align:center;
+  text-align: center;
   color: rgb(224, 94, 70);
   text-transform: uppercase;
- max-width: min-content;
- margin-left:6ch;
+  max-width: min-content;
+  margin-left: 6ch;
 }
 div p {
   text-align: center;
 }
 .div-grid {
   padding: 1rem;
-  display: inline-block;
   margin: 20px;
-} 
+}
 #first-svg {
   background-color: rgb(112, 192, 201);
-  padding:20px 20px 20px 30px;
-  margin-bottom:20px;
-  border-radius:1rem;
+  padding: 20px 20px 20px 30px;
+  margin-bottom: 20px;
+  border-radius: 1rem;
 }
 #second-svg {
   background-color: rgb(64, 116, 189);
-  padding:20px 20px 20px 30px;
-  margin-bottom:20px;
-  border-radius:1rem;
+  padding: 20px 20px 20px 30px;
+  margin-bottom: 20px;
+  border-radius: 1rem;
 }
 #third-svg {
-background-color:rgb(224, 94, 70);
-padding:20px 20px 20px 30px;
-margin-bottom:20px;
-border-radius:1rem;
+  background-color: rgb(224, 94, 70);
+  padding: 20px 20px 20px 30px;
+  margin-bottom: 20px;
+  border-radius: 1rem;
 }
 
 #last-svg {
-background-color: rgb(145,145,145);
-padding:20px 20px 20px 30px;
-margin-bottom:20px;
-border-radius:1rem;
+  background-color: rgb(145, 145, 145);
+  padding: 20px 20px 20px 30px;
+  margin-bottom: 20px;
+  border-radius: 1rem;
 }
 #number1 {
-  position:absolute;
+  position: absolute;
 }
 #number1 div {
-  position:relative;
-top:-1.5ch;
-left:-1.5ch;
-  color:rgb(112, 192, 201);
+  position: relative;
+  top: -1.5ch;
+  left: -1.5ch;
+  color: rgb(112, 192, 201);
   font-size: 3ch;
-  border-radius:50%;
-  border-style:solid;
-  width:2.25rem;
+  border-radius: 50%;
+  border-style: solid;
+  width: 2.25rem;
   background-color: white;
-  text-align:center;
+  text-align: center;
 }
 #number2 {
-  position:absolute;
+  position: absolute;
 }
 #number2 div {
-  position:relative;
-top:-1.5ch;
-left:-1.5ch;
-  color:rgb(64, 116, 189);
+  position: relative;
+  top: -1.5ch;
+  left: -1.5ch;
+  color: rgb(64, 116, 189);
   font-size: 3ch;
-  border-radius:50%;
-  border-style:solid;
-  width:2.25rem;
+  border-radius: 50%;
+  border-style: solid;
+  width: 2.25rem;
   background-color: white;
-  text-align:center;
+  text-align: center;
 }
 #number3 {
-  position:absolute;
+  position: absolute;
 }
 #number3 div {
-  position:relative;
-top:-1.5ch;
-left:-1.5ch;
-  color:rgb(224, 94, 70);
+  position: relative;
+  top: -1.5ch;
+  left: -1.5ch;
+  color: rgb(224, 94, 70);
   font-size: 3ch;
-  border-radius:50%;
-  border-style:solid;
-  width:2.25rem;
+  border-radius: 50%;
+  border-style: solid;
+  width: 2.25rem;
   background-color: white;
-  text-align:center;
+  text-align: center;
 }
 #number4 {
-  position:absolute;
+  position: absolute;
 }
 #number4 div {
-  position:relative;
-top:-1.5ch;
-left:-1.5ch;
-color: rgb(145,145,145);
+  position: relative;
+  top: -1.5ch;
+  left: -1.5ch;
+  color: rgb(145, 145, 145);
   font-size: 3ch;
-  border-radius:50%;
-  border-style:solid;
-  width:2.25rem;
+  border-radius: 50%;
+  border-style: solid;
+  width: 2.25rem;
   background-color: white;
-  text-align:center;
+  text-align: center;
 }
