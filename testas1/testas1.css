@@ -57,7 +57,15 @@ div p {
   margin-bottom: 20px;
   border-radius: 1rem;
 }
-
+@media screen and (max-width:1500px)
+{
+#main-section {
+  display:grid;
+  grid-template-columns: min-content;
+  margin:0 auto;
+  width:fit-content;
+}
+}
 #last-svg {
   background-color: rgb(145, 145, 145);
   padding: 20px 20px 20px 30px;
